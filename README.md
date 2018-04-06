@@ -1,7 +1,7 @@
 # Chat Room Service
 
 ## BIL448 : Internet Security Protocols Spring 2018 Project 1 Secure Chat System
-## CS255: Cryptography and Computer Security Winter 2004 Programming Project #2
+## CS255 : Cryptography and Computer Security Winter 2004 Programming Project #2
 
 ------------------------------------------------------------------------------------------------------
 
