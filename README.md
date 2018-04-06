@@ -76,6 +76,8 @@ The user sends the name (id) of the room he wants to join using this encrypted c
 
 User continuously sends messages to and receives messages from server. It encrypts/decrypts messages using the room key obtained when joining the room. A MAC is added to each message which is SHA256 hash encrypted with the room key of the message. Server sends encrypted message and MAC it receives from a client to all clients in the same room.
 
+There are two type of room, public and private. As many users as possible can access the public room but only two person can join a private room and rejects the subsequent requests.
+
  ![alt text](https://github.com/SerayBeser/ChatRoom-Service/blob/master/screenshots/4.png)
 
 ------------------------------------------------------------------------------------------------------
