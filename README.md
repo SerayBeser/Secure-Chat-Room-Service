@@ -1,6 +1,6 @@
 # Chat Room Service
 
-## BIL 448 : Internet Security Protocols Spring 2018 Project
+## BIL448 : Internet Security Protocols Spring 2018 Project
 ## CS255: Cryptography and Computer Security Winter 2004 Programming Project #2
 
 ------------------------------------------------------------------------------------------------------
@@ -50,7 +50,7 @@ There is no predefined user database where users' information is kept. Since the
 
 ------------------------------------------------------------------------------------------------------
 
-## 2- SERVER - CLIENT KEY EXCHANGE AND MUTUAL AUTHENTICATION
+### 2- SERVER - CLIENT KEY EXCHANGE AND MUTUAL AUTHENTICATION
 
 Diffie-Hellman (DH) key exchange is performed for encryption and mutual authentication. The server uses certificates and digital signatures signed by the CA when authenticating the identity of the user who wants to chat and the user verifying the identity of the server. Thus, the user completes the login process during the key exchange to verify his or her certificate.
 
