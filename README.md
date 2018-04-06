@@ -24,6 +24,16 @@
 
 ------------------------------------------------------------------------------------------------------
 
+### DEMO SCREENSHOTS
+
+ ![alt text](https://github.com/SerayBeser/ChatRoom-Service/blob/master/screenshots/5.png)
+ ![alt text](https://github.com/SerayBeser/ChatRoom-Service/blob/master/screenshots/6.png)
+ ![alt text](https://github.com/SerayBeser/ChatRoom-Service/blob/master/screenshots/7.png)
+ ![alt text](https://github.com/SerayBeser/ChatRoom-Service/blob/master/screenshots/8.png)
+
+
+------------------------------------------------------------------------------------------------------
+
 ### KEYSTORES
 
 The Certification Authority has a self-signed certificate. The Client and the Server have long-term RSA key pairs and corresponding certificates signed using the Certificate Authority's certificate. The user's keystore contains the user's key pair, the certificate, and the certificate of the CA. The server's key store has the server's key pair, the certificate, and the certificate of the Certificate Authority. This key pair and certificates are generated and stored with __generate_keystores.sh__ before running the application. All these keys and certificates are generated and stored in Chat/keystores and all passwords are "123456". When CertificateAuthority and ChatClient are run, they receive their keystore information via GUIs. Since ChatServer is not a GUI, its keystore information is embedded in the source code.
