@@ -1,4 +1,4 @@
-# Chat Room Service
+# Secure Chat Room Service
 
 ## CS255 : Cryptography and Computer Security Winter 2004 Programming Project #2
 
